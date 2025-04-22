@@ -18,6 +18,7 @@ class LinkedList{
             let curr=this.head;
             let listValues="";
             while(curr){
+                console.log(curr.value)
                 listValues+=`${curr.value} `
                 curr=curr.next;
             }
@@ -181,7 +182,5 @@ class LinkedList{
     }
 }
 
-const list = new LinkedList();
-list.fromArray([1,2,3,4,5,6,7])
-list.removeByValue(7)
-list.print()
+
+module.exports = LinkedList;
