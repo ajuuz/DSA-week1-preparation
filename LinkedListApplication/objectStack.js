@@ -1,3 +1,5 @@
+//stack using Object
+
 class Stack{
     constructor(){
         this.object={};

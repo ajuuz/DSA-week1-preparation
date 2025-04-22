@@ -1,3 +1,5 @@
+//stack using linkedList
+
 const LinkedList =require('./LinkedList.js')
 
 class Stack{

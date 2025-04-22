@@ -1,3 +1,5 @@
+//Queue using Object
+
 class Queue{
     constructor(){
         this.object={};

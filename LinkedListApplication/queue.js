@@ -1,3 +1,5 @@
+//Queue using linkedList
+
 const LinkedList = require("./LinkedList");
 
 class Queue{
