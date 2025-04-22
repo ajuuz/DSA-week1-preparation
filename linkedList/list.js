@@ -18,7 +18,6 @@ class LinkedList{
             let curr=this.head;
             let listValues="";
             while(curr){
-                console.log(curr.value)
                 listValues+=`${curr.value} `
                 curr=curr.next;
             }
